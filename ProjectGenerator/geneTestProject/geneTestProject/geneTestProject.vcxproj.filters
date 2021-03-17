@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="A\A1.h">
+      <Filter>A</Filter>
+    </ClInclude>
+    <ClInclude Include="A\A1.hpp">
+      <Filter>A</Filter>
+    </ClInclude>
+    <ClInclude Include="A\AA\AA1.h">
+      <Filter>A\AA</Filter>
+    </ClInclude>
+    <ClInclude Include="A\AB\AB1.h">
+      <Filter>A\AB</Filter>
+    </ClInclude>
+    <ClInclude Include="B\B1.h">
+      <Filter>B</Filter>
+    </ClInclude>
+    <ClInclude Include="B\BA\BA1.h">
+      <Filter>B\BA</Filter>
+    </ClInclude>
+    <ClInclude Include="B\BB\BB1.h">
+      <Filter>B\BB</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>geneTestProject\geneTestProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A\A1.cpp">
+      <Filter>A</Filter>
+    </ClInclude>
+    <ClInclude Include="A\AA\AA1.cpp">
+      <Filter>A\AA</Filter>
+    </ClInclude>
+    <ClInclude Include="A\AB\AB1.cpp">
+      <Filter>A\AB</Filter>
+    </ClInclude>
+    <ClInclude Include="B\B1.cpp">
+      <Filter>B</Filter>
+    </ClInclude>
+    <ClInclude Include="B\BA\BA1.cpp">
+      <Filter>B\BA</Filter>
+    </ClInclude>
+    <ClInclude Include="B\BB\BB1.cpp">
+      <Filter>B\BB</Filter>
+    </ClInclude>
+    <ClInclude Include="main.cpp">
+      <Filter>geneTestProject\geneTestProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="A">
+    </Filter>
+    <Filter Include="A\AA">
+    </Filter>
+    <Filter Include="A\AB">
+    </Filter>
+    <Filter Include="B">
+    </Filter>
+    <Filter Include="B\BA">
+    </Filter>
+    <Filter Include="B\BB">
+    </Filter>
+  </ItemGroup>
+</Project>
